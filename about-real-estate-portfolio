@@ -1,0 +1,41 @@
+Showcase properties under a portfolio site and also host your individual property sites. 
+The portfolio site will be one domain and standalone sites will have their own individual domain.
+## Key Features
+* Portfolio Site
+* Landing Pages for Metro Areas
+* Landing Pages for Neighborhoods
+* Google Maps integration along with POI (Custom)
+* Individual Web Site for property
+* Compatible with AEM as Cloud Service
+* Enabled for Multi Sites
+
+## Web Site Structure
+```
+├── portfolio site
+│   ├── metro areas
+│   │   ├── metro area 1
+│   │   ├── metro area 2
+│   │   ├── metro area 3
+│   ├── neighborhoods
+│   │   ├── neighborhood 1
+│   │   ├── neighborhood 2
+│   │   ├── neighborhood 3
+│   ├── properties
+│   │   ├── property-1.html
+│   │   ├── property-2.html
+│   │   ├── property-3.html
+│   ├── index.html
+├── standalone-property-1
+│   ├── apartment-availability
+│   ├── index.html
+├── standalone-property-2
+│   ├── apartment-availability
+│   ├── index.html
+└── .gitignore
+```
+### Tags
+* MSM
+* Adobe
+
+### Compatible with
+AEM as Cloud Service
